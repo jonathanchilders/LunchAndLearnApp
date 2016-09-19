@@ -1,0 +1,134 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	color: #CC00AA;
+}
+
+*{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+} 
+
+h1 {
+  color: #FFD000;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  /* font-variant: small-caps;*/
+}
+
+h2{
+  color: #FFD000;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+h3 {
+  color: #FFD000;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+p {
+     color: #FFFFFF;
+     /*text-align: center;*/
+
+}
+
+.project a {
+     text-align: center;
+}
+
+.button_list{
+  text-align: center;
+}
+
+ol{
+  padding-left: 0px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.navbar {
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #111;
+}
+
+.navbar .active {
+  background-color: #333;
+}
+
+img {
+  position: aboslute;
+  z-index: -1;
+
+}
+html,body{
+    position: relative;
+    width: 100%;
+    height:100%;
+    color: #FFFFFF;
+    display: block;
+    background: white;/* background color of app*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+/*    background-position:  bottom;*/
+    background-image: url("../images/background.jpg");
+    background-size: 100% 100%;
+}
+
+.club .button {
+    margin:5px 0;
+  font-size:20px;
+  color:#197FCC; /* center font color*/
+  text-align: center;
+  -moz-border-radius: 12px; /* FF1+ */
+  -webkit-border-radius: 12px; /* Saf3-4 */
+    border-radius: 12px; /* Opera 10.5, IE 9, Saf5, Chrome */ 
+    height: 50px; /* height for all three buttons on front page*/
+    width: 200px;
+  background: white;/*default background color for buttons*/
+}
+
+.button{
+  margin:5px 0;
+  font-size:20px;
+  color:#197FCC; /* center font color*/
+  text-align: center;
+  -moz-border-radius: 12px; /* FF1+ */
+  -webkit-border-radius: 12px; /* Saf3-4 */
+    border-radius: 12px; /* Opera 10.5, IE 9, Saf5, Chrome */ 
+    height: 80px; /* height for all three buttons on front page*/
+    width: 280px;
+  background: white;/*default background color for buttons*/
+
+}
