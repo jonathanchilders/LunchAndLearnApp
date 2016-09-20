@@ -1,17 +1,17 @@
 {
-    topics:
+    "topics" :
     [
         {
-            name : "Domain Driven Design",
-            source : "Plurlsight",
-            url : "https://www.pluralsight.com/courses/domain-driven-design-fundamentals",
-            free : false
+            "name" : "Domain Driven Design",
+            "source" : "Plurlsight",
+            "url" : "https://www.pluralsight.com/courses/domain-driven-design-fundamentals",
+            "free" : false
         },
         {
-            name : "Unity3D",
-            source : "Unity3D tutorials",
-            url : "https://unity3d.com/learn/tutorials",
-            free : true
+            "name" : "Unity3D",
+            "source" : "Unity3D tutorials",
+            "url" : "https://unity3d.com/learn/tutorials",
+            "free" : true
         }
     ]
 }

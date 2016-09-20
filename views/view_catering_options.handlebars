@@ -15,12 +15,25 @@
     <!--<div class="navbar" id="navbar">
 
 	</div>-->
-    <div class="container">
-        <center>
+    <div class="container"> 
         <div>
             <h1>Catering Options</h1>
         </div>
-        </center>
+        {{#each catering_options}}
+            <div class="club">
+                <h3>{{name}}</h3>
+                <p>Do they deliver: {{delivers}}</p>
+                <h3>Kinds of Food</h3>
+                {{#each food_options}}
+                    <p>{{name}}</p>
+                {{/each}}
+                <input type="button" class="button"  
+                       onclick="window.open('{{url}}','_blank');;" 
+                       value="View Website" 
+                       id="{{name}}"/>
+                <hr>
+            </div>
+        {{/each}} 
     </div>
     
     <script src="https://code.jquery.com/jquery.js"></script>

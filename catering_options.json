@@ -1,59 +1,62 @@
 {
-    catering_options:
+    "catering_options" :
     [        
         {
-            name : "Palomar Pizza",
-            delivers : true,
-            food_options:
+            "name" : "Palomar Pizza",
+            "delivers" : "yes",
+            "food_options" :
             [
                 {
-                    name : "Salad"
+                    "name" : "Salad"
                 },
                 {
-                    name : "Subs"
+                    "name" : "Subs"
                 },
                 {
-                    name : "Pizza"
+                    "name" : "Pizza"
                 },
                 {
-                    name : "Cookies"
+                    "name" : "Cookies"
                 }
-            ]
+            ],
+            "url" : "https://www.yelp.com/biz/palomar-pizza-and-pasta-vista"
         },
         {
-            name : "O's Kitchen",
-            delivers : true,
-            food_options:
+            "name" : "O's Kitchen",
+            "delivers" : "yes",
+            "food_options" :
             [
                 {
-                    name : "Salad"
+                    "name" : "Salad"
                 },
                 {
-                    name : "Breadsticks"
+                    "name" : "Breadsticks"
                 },
                 {
-                    name : "Pizza"
+                    "name" : "Pizza"
                 },
                 {
-                    name : "Chicken"
+                    "name" : "Chicken"
                 }
-            ]
+            ],
+            "url" : "http://www.osamericankitchen.com/"
         },
         {
-            name : "Submarina",
-            delivers : true,
-            food_options:
+            "name" : "Submarina",
+            "delivers" : "yes",
+            "food_options" :
             [
                 {
-                    name : "Giant Subs"
+                    "name" : "Giant Subs"
                 },
                 {
-                    name : "Sandwiches"
+                    "name" : "Sandwiches"
                 },
                 {
-                    name : "Salad"
+                    "name" : "Salad"
                 }
-            ]
+            ],
+            "url" : "http://www.submarina.com/"
         }
     ]
 }
