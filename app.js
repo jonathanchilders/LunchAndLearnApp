@@ -6,6 +6,12 @@ var handlebars = require('express3-handlebars');
 
 //Paths to routes
 var index = require('./routes/index');
+var add_catering_option = require('./routes/add_catering_option');
+var add_topic = require('./routes/add_topic');
+var edit_catering_option = require('./routes/edit_catering_option');
+var edit_topic = require('./routes/edit_topic');
+var view_catering_options = require('./routes/view_catering_options');
+var view_topics = require('./routes/view_topics');
 
 var app = express();
 
@@ -31,6 +37,12 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
+app.get('/add_catering_option', add_catering_option.view);
+app.get('/add_topic', add_topic.view);
+app.get('/edit_catering_option', edit_catering_option.view);
+app.get('/edit_topic', edit_topic.view);
+app.get('/view_catering_options', view_catering_options.view);
+app.get('/view_topics', view_topics.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

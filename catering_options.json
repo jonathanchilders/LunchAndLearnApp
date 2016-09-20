@@ -1,0 +1,59 @@
+{
+    catering_options:
+    [        
+        {
+            name : "Palomar Pizza",
+            delivers : true,
+            food_options:
+            [
+                {
+                    name : "Salad"
+                },
+                {
+                    name : "Subs"
+                },
+                {
+                    name : "Pizza"
+                },
+                {
+                    name : "Cookies"
+                }
+            ]
+        },
+        {
+            name : "O's Kitchen",
+            delivers : true,
+            food_options:
+            [
+                {
+                    name : "Salad"
+                },
+                {
+                    name : "Breadsticks"
+                },
+                {
+                    name : "Pizza"
+                },
+                {
+                    name : "Chicken"
+                }
+            ]
+        },
+        {
+            name : "Submarina",
+            delivers : true,
+            food_options:
+            [
+                {
+                    name : "Giant Subs"
+                },
+                {
+                    name : "Sandwiches"
+                },
+                {
+                    name : "Salad"
+                }
+            ]
+        }
+    ]
+}
