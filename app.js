@@ -44,6 +44,8 @@ app.get('/edit_topic', edit_topic.view);
 app.get('/view_catering_options', view_catering_options.view);
 app.get('/view_topics', view_topics.view);
 
+app.post('/add_catering_option', add_catering_option.postCateringOption);
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });

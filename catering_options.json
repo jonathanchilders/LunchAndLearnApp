@@ -3,7 +3,7 @@
     [        
         {
             "name" : "Palomar Pizza",
-            "delivers" : "yes",
+            "delivers" : "Available",
             "food_options" :
             [
                 {
@@ -23,7 +23,7 @@
         },
         {
             "name" : "O's Kitchen",
-            "delivers" : "yes",
+            "delivers" : "Available",
             "food_options" :
             [
                 {
@@ -43,7 +43,7 @@
         },
         {
             "name" : "Submarina",
-            "delivers" : "yes",
+            "delivers" : "Available",
             "food_options" :
             [
                 {

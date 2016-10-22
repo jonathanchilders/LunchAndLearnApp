@@ -5,28 +5,32 @@
     <title>Lunch and Learn</title>	
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">	
-    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/css/styling.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="/images/icon.png" />
 </head>
     
 <body>
-    <!--<div class="navbar" id="navbar">
-
-	</div>-->
-    <div class="container"> 
+    <div class = "navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+        </ul>
+    </div>
+    <div class="container" style="margin-left:5%;padding:1px 16px;"> 
         <div>
             <h1>Catering Options</h1>
         </div>
         {{#each catering_options}}
             <div class="club">
                 <h3>{{name}}</h3>
-                <p>Do they deliver: {{delivers}}</p>
+                <ul>
+                    <li style="margin-left:5%;"><p>Delivery: {{delivers}}</p></li>
+                </ul>
                 <h3>Kinds of Food</h3>
-                {{#each food_options}}
-                    <p>{{name}}</p>
-                {{/each}}
+                <ul>
+                    {{#each food_options}}
+                        <li style="margin-left:5%;"><p>{{name}}</p></li>
+                    {{/each}}
+                </ul>
                 <input type="button" class="button"  
                        onclick="window.open('{{url}}','_blank');;" 
                        value="View Website" 
@@ -37,6 +41,5 @@
     </div>
     
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
